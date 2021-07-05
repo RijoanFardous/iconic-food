@@ -7,9 +7,6 @@ body{
 }
 
 /* Navigation Bar Style */
-.navbar{
-    height: 100px;
-}
 .nav-list {
     list-style: none;
     display: flex;
@@ -55,6 +52,7 @@ a {
     height: 700px;
     justify-content: space-around;
     align-items: center;
+    background-color: #C4C4C4;
 }
 .container {
     display: flex;
@@ -63,7 +61,7 @@ a {
     width: 85%;
     height: 75%;
 }
-.slogan-container{
+.text-container{
     width: 60%; 
 }
 .home-image{
@@ -75,9 +73,23 @@ a {
 .slogan{
     font-size: 45px;
     font-weight: bolder;
-    color: #575757;
+
 }
 .slogan span{
     color: #11998e;
 }
 /* Home Section Style */
+
+/* About Section Style */
+#about {
+    background-image: url('images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+.cook{
+    margin-left: 7%;
+}
