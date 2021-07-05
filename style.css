@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+
 body{
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+.list-item {
+    margin: 0px 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo{
+    margin-right: auto;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.logo span{
+    color: #11998E;
+}
+
+.contact-btn {
+    padding: 7px 15px;
+    border-radius: 25px;
+    color: white;
+    background-color: #11998e;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-item a:hover {
+    border-bottom: 2px solid #11998e;
 }
