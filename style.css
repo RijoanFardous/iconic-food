@@ -2,6 +2,7 @@
 
 body{
     margin: 0px;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
@@ -10,8 +11,10 @@ body{
 .nav-list {
     list-style: none;
     display: flex;
-    padding: 5px;
+    margin: 0px;
+    padding: 25px;
     justify-content: flex-end;
+    background-color: #c4c4c4;
 }
 .list-item {
     margin: 0px 25px;
@@ -52,7 +55,7 @@ a {
     height: 700px;
     justify-content: space-around;
     align-items: center;
-    background-color: #C4C4C4;
+    
 }
 .container {
     display: flex;
@@ -86,10 +89,44 @@ a {
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
-    height: 600px;
+    height: 650px;
     justify-content: space-around;
     align-items: center;
 }
 .cook{
     margin-left: 7%;
 }
+h2 {
+    color: #11998e;
+}
+
+.recipe-text{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.recipe-box-container{
+    height: 500px;
+    width: 1020px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-box {
+    width: 30%;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 10px;
+}
+.recipe-box img {
+    width: 100%;
+    border-radius: 17px;
+}
+.food-name {
+    color: #11998e;
+}
+.recipe-box p {
+    font-size: 17px;
+}
+
