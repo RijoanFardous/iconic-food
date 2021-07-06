@@ -130,6 +130,35 @@ h2 {
     font-size: 17px;
 }
 
+/* Social Media Information Style */
+.social-info-container {
+    height: 400px;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-info {
+    width: 1020px;
+    height: 220px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 1px 1px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media {
+    width: 30%;
+    text-align: center;
+}
+.social-media h2 {
+    font-size: 35px;
+    color: black;
+}
+/* Social Media Information Style */
+
+/* Footer Section Style */
 footer {
     background-color: black;
     height: 110px;
@@ -147,3 +176,4 @@ footer h3 {
 footer p {
     font-size: 14px;
 }
+/* Footer Section Style */
