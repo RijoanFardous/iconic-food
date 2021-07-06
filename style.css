@@ -99,6 +99,9 @@ a {
 h2 {
     color: #11998e;
 }
+/* About Section Style */
+
+
 
 .recipe-text{
     margin-top: 60px;
@@ -158,6 +161,50 @@ h2 {
 }
 /* Social Media Information Style */
 
+
+/* Contact Section Style */
+#contact {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-container{
+    width: 55%;
+}
+.contact-img {
+    width: 35%;
+}
+.contact-img img {
+    width: 120%;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+.message{
+    height: 150px;
+}
+button {
+    padding: 12px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    background: #11998e;
+    border: none;
+}
+/* Contact Section Style */
+
+
 /* Footer Section Style */
 footer {
     background-color: black;
@@ -170,7 +217,6 @@ footer {
 footer h3 {
     font-size: 24px;
     font-weight: bolder;
-
 }
 
 footer p {
