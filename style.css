@@ -10,16 +10,11 @@ body{
 /* Navigation Bar Style */
 .nav-list {
     list-style: none;
-    display: flex;
     margin: 0px;
     padding: 25px;
+    display: flex;
     justify-content: flex-end;
     background-color: #c4c4c4;
-}
-.list-item {
-    margin: 0px 25px;
-    font-size: 20px;
-    font-weight: 600;
 }
 .logo{
     margin-right: auto;
@@ -30,14 +25,18 @@ body{
 .iconic{
     color: #11998E;
 }
+.list-item {
+    margin: 0px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
 .link-btn {
     padding: 8px 15px;
     border-radius: 25px;
     color: white;
     font-weight: bold;
-    background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 1px 1px 10px black;
+    background: linear-gradient(to right, #38ef7d, #11998e);
 }
 a {
     text-decoration: none;
@@ -47,6 +46,7 @@ a {
     border-bottom: 2px solid #11998e;
 }
 /* Navigation Bar Style */
+
 
 
 /* Home Section Style */
@@ -83,6 +83,8 @@ a {
 }
 /* Home Section Style */
 
+
+
 /* About Section Style */
 #about {
     background-image: url(images/background.jpg);
@@ -102,7 +104,7 @@ h2 {
 /* About Section Style */
 
 
-
+/* Recipe Section Style */
 .recipe-text{
     margin-top: 60px;
     text-align: center;
@@ -132,6 +134,9 @@ h2 {
 .recipe-box p {
     font-size: 17px;
 }
+/* Recipe Section Style */
+
+
 
 /* Social Media Information Style */
 .social-info-container {
